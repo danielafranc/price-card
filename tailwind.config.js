@@ -8,6 +8,11 @@ module.exports = {
       'DM-sans': ['DM Sans', 'sans-serif'],
       'Inter': ['Inter', 'sans-serif'],
     },
+    screens : {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+    }
 
   },
   plugins: [],

@@ -1,10 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
 body{
   background: #242629;
-  ;
-  
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0px;
+box-sizing: border-box;
 }
 .App {
   text-align: center;
