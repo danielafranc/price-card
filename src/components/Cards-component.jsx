@@ -31,7 +31,7 @@ const CardsComponent = () => {
 
 
     return (
-        <div className=''>
+        <div className='max-w-[1240px] px-6 m-auto'>
         <div className='flex items-center text-white justify-center gap-4 mt-6 mb-[42px]'>
             <FormControlLabel
           control={
@@ -47,7 +47,7 @@ const CardsComponent = () => {
         />
             <p className='ml-4'>Anualmente (-40%) </p>
         </div> 
-        <div className='flex flex-row gap-[24px] p-3 justify-center align-center text-left'>
+        <div className='flex sm:flex-col sm:gap-6 sm:items-center sm:justify-center sm:p-2 lg:flex-row md:flex-row md:m-6 p-3 justify-center align-center text-left md:px-6'>
             <div className='w-[397px] h-[702px] rounded-3xl bg-[#16161A] border-[#EFF0F6] border-[1px] p-[40px] flex flex-col'>
                 <div>
                 <h1 className='text-white font-[Inter] font-bold text-5xl p-0 '>Básico</h1> 

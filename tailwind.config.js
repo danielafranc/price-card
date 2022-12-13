@@ -9,7 +9,7 @@ module.exports = {
       'Inter': ['Inter', 'sans-serif'],
     },
     screens : {
-      'sm': '640px',
+      'sm': '320px',
       'md': '768px',
       'lg': '1024px',
     }
